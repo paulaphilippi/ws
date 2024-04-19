@@ -99,6 +99,9 @@ body {
       display: flex;
       flex-direction: column;
       gap: 34px;
+      background-color: white;
+      padding: 10px;
+      align-items: left;
     }
 
     .project-card-text-container {
@@ -108,9 +111,9 @@ body {
     }
 
     .project-image {
-      width: 95%;
+      width: 60%;
       height: 200px;
-      object-fit: cover;
+      object-fit: contain;
       object-position: center;
     }
 

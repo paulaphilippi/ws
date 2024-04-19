@@ -98,7 +98,8 @@ a.button:hover {
 /* Link Styling */
 a.no-underline {
   text-decoration: none;
-  color: black
+  color: black;
+  font-weight: 600;
 }
 
 a.no-underline:hover {
