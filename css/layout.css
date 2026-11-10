@@ -122,7 +122,8 @@ body {
 
 /* Project Pages */
 
-#project-header {
+#project-header,
+.project-header {
   display: flex;
   flex-direction: column;
   gap: 16px;

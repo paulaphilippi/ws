@@ -1,0 +1,16 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# R environment & history
+.Rhistory
+.RData
+.Ruserdata
+
+# Editor & IDE configurations
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
