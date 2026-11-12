@@ -1,3 +1,10 @@
+:root {
+  --accent: #0f766e;
+  --accent-dark: #115e59;
+  --accent-bg: rgba(15, 118, 110, 0.05);
+  --accent-border: rgba(15, 118, 110, 0.28);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -129,8 +136,8 @@ body {
 
 a.project-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 28px -6px rgba(0, 0, 0, 0.08);
-  border-color: #a1a1aa;
+  box-shadow: 0 12px 28px -6px rgba(15, 118, 110, 0.08), 0 4px 12px -2px rgba(0, 0, 0, 0.04);
+  border-color: rgba(15, 118, 110, 0.45);
 }
 
 div.project-card {
@@ -147,12 +154,12 @@ div.project-card:hover {
   width: 42px;
   height: 42px;
   border-radius: 10px;
-  background-color: #f4f4f5;
-  border: 1px solid #e4e4e7;
+  background-color: rgba(15, 118, 110, 0.05);
+  border: 1px solid rgba(15, 118, 110, 0.25);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #18181b;
+  color: #0f766e;
   flex-shrink: 0;
 }
 
